@@ -9,7 +9,7 @@
   
   body {
     font-family: 'YourFontFamily', sans-serif;
-    background-color: #216536;
+    background-color: #222;
 }
 
 h1 {
@@ -24,4 +24,59 @@ h1 {
 
 button{
     background-color: #7e141c;
+    font-family: 'YourFontFamily', sans-serif;
+
 }
+
+
+
+/* Reset some default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+
+
+/* Apply styles to the snow animation */
+.snow-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 99999;
+}
+
+.snow {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    animation: fallingSnow 3s linear infinite; 
+}
+
+@keyframes fallingSnow {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+/* Add your custom styles for the page content */
+.bg-body-tertiary {
+    background-color: #216536;
+    color: #fff; /* Set text color to white */
+}
+
+.bg-accent {
+    background-color: #cfac5b;
+}
+
+/* Customize the button style
+
