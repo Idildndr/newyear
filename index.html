@@ -5,32 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website Title</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body>
-    <h1>Welcome to Your Website!</h1>
 
-    <!-- Add an audio element with controls set to 'false' -->
-    <audio id="audio" controls="false" autoplay>
-        <source src="./audio/192002956.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
-
-    <!-- Add a script to play the audio when the page loads -->
-    <script>
-        // Get the audio element by its ID
-        var audio = document.getElementById('audio');
-
-        // Play the audio when the page loads
-        window.addEventListener('load', function() {
-            audio.play();
-        });
-    </script>
+  
+    <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Another headline</h2>
+          <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <img src="./images/44854 2.jpg" style="width: 60; height:280px;  border-radius: 21px 21px 0 0; margin: 20px;" alt="">
+        
+        </div>
 
 
+      </div>
 
+    <!-- Add a button to trigger audio playback -->
+    <button id="playButton">Play Audio</button>
 
-
-<img class="img" src="./images/44854 2.jpg" alt="">
-<script src="index.js" charset="UTF-8"></script>
-</body>
-</html>
+    <!-- Add an audio element with autoplay and muted attributes -->
+    <audio id="audio" style="display: none;">
+        <source src="./audio/192002956.mp3" type="audio/mp

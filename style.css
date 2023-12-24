@@ -1,0 +1,30 @@
+
+
+@font-face {
+    font-family: 'YourFontFamily';
+    src: url('./fonts/Pacifico-Regular.ttf') format('woff'),
+         url('./fonts/Pacifico-Regular.ttf') format('truetype');
+    /* Add other font formats if necessary */
+  }
+  
+  body {
+    font-family: 'YourFontFamily', sans-serif;
+  }
+
+  
+  body {
+    font-family: 'YourFontFamily', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'YourFontFamily', sans-serif;
+    /* Add more styling as needed */
+  }
+
+
+.second{
+    background-color: red;
+}
+  
+
+
