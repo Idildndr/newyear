@@ -9,22 +9,19 @@
   
   body {
     font-family: 'YourFontFamily', sans-serif;
-  }
+    background-color: #216536;
+}
 
-  
-  body {
-    font-family: 'YourFontFamily', sans-serif;
-  }
-  
-  h1 {
+h1 {
     font-family: 'YourFontFamily', sans-serif;
     /* Add more styling as needed */
-  }
-
+}
 
 .second{
     background-color: red;
 }
   
 
-
+button{
+    background-color: #7e141c;
+}
